@@ -9,6 +9,6 @@ export default function App() {
     <StatusBar barStyle={"auto"} />
     <Routes />
     </>
-  )
+  );
 }
 
