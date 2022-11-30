@@ -1,13 +1,16 @@
 import React from "react";
 import { View, ScrollView, Text, StyleSheet } from "react-native";
 import DefaultButton from "../../Components/Common/DefaultButton";
+import { useNavigation } from "@react-navigation/native";
 
 import ExplanationCard from "../../Components/Explanation/Card";
 
 export default function AppExplanation() {
 
+    const navigation = useNavigation();
+
     function handleSetShowHome() {
-        console.log("Testing show home")
+        navigation.navigate("Home")
     }
 
     return (
