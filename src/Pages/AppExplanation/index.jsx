@@ -2,6 +2,8 @@ import React from "react";
 import { View, ScrollView, Text, StyleSheet } from "react-native";
 import DefaultButton from "../../Components/Common/DefaultButton";
 
+import ExplanationCard from "../../Components/Explanation/Card";
+
 export default function AppExplanation() {
 
     function handleSetShowHome() {
@@ -15,6 +17,8 @@ export default function AppExplanation() {
                     <Text style={styles.title}>
                         First, let me explain...
                     </Text>
+                    <ExplanationCard>
+                    </ExplanationCard>
                     <Text style={styles.descriptionCtx}>
                         Ready to scale up your level in life?
                     </Text>
