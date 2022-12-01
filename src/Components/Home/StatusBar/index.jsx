@@ -12,7 +12,7 @@ export default function StatusBar() {
                 style={styles.icon}
                 ></Image>
                 <ProgressBar 
-                progress={1} 
+                progress={0} 
                 color={"#90B7F3"} 
                 style={styles.progress}>
                 </ProgressBar>
