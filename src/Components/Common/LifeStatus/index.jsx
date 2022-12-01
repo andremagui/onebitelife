@@ -22,6 +22,7 @@ export default function LifeStatus() {
 
 const styles = StyleSheet.create({
     container:{
+        alignSelf: "center",
         width: 300,
         height: 300,
     },

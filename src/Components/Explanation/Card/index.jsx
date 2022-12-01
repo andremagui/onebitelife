@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     },
     mind:{
         color: "#90B7F3",
-        fontWeight: "cenboldter",
+        fontWeight: "bold",
     },
     money:{
         color: "#85BB65",
